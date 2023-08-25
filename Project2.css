@@ -1,0 +1,280 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: rgb(222, 237, 241);
+}
+
+
+.heading
+{
+    background-color:green;
+    color: white;
+    font-size: 2.5rem;
+    padding: 10px;
+    margin-top: 2px;
+}
+
+.sub-container
+{
+    display: grid;
+    grid-template-columns: 40% 58%;
+    grid-gap: 20px;
+}
+
+.left
+{  
+    background-color: rgb(245, 245, 245);
+    border-right: 1px solid gray;
+    min-height: 100%;
+    max-height: max-content;
+}
+
+.question-form
+{
+    display: flex;
+    height: max-content;
+    padding: 20px;
+    background-color: white;
+    justify-content: space-around;
+}
+#QuestionFormBtn
+{
+    text-decoration: none;
+    padding: 10px;
+    overflow: hidden;
+    color: white;
+    background-color:brown;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#SearchQuestionBar
+{
+    font-size: 15px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border-color: gray;
+}
+#QuestionFormBtn:hover, #SearchQuestionBar:hover
+{
+    scale: 110%;
+}
+
+#QuestionFormBtn:active, #SearchQuestionBtn:active
+{
+    color:skyblue;
+    background-color: white;
+}
+
+#question-list
+{
+    min-height: 75vh;
+    max-height: max-content;
+    border-top: 1px solid lightblue;
+}
+
+.right
+{
+    position: relative;
+    margin: 25px 0 0 50px;
+}
+
+#subjectBox
+{
+    height: 30px;
+    font-size: 20px;
+    width: 350px;
+    outline-color: rgb(109, 108, 108);
+    color:rgb(58, 57, 57);
+    padding-left: 8px;
+}
+
+#questionBox
+{
+    margin-top: 20px;
+    max-width: 90%;
+    font-size:20px ;
+    outline-color: rgb(77, 75, 75);
+    padding: 8px;
+}
+
+#submitButton
+{
+    padding: 5px;
+    margin-top: 8px;
+    font-size: 20px;
+    position: absolute;
+    max-width: 100%;
+    right: 7%;
+    background-color: blue;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitButton:hover
+{
+    scale: 110%;
+}
+
+#submitButton:active
+{
+    color:skyblue;
+    background-color: white;
+}
+
+
+.questionHeading,
+.question
+{
+    color:rgb(56, 56, 56);
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.questions
+{
+    word-wrap: break-word;
+    padding-right: 10px;
+}
+
+.questionContainer:hover
+{
+    cursor: pointer;
+}
+
+.hidden
+{
+    display: none;
+}
+
+#response-form-view
+{
+    height: max-content;
+}
+
+#question-container
+{
+    word-break: break-all;
+    padding-right: 10px;
+}
+
+#response-form-view #question-container
+{
+    background-color: rgb(245, 245, 245);
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    min-height: fit-content;
+    max-height: max-content;
+    max-width: 90%;
+    margin-top: 10px;
+}
+
+#resolveButtonContainer
+{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: right;
+    width: 92%;
+    margin-top: 10px;
+}
+
+#resolveButton
+{
+    font-size: 20px;
+    color: white;
+    border: 2px solid transparent;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#resolveButton:hover
+{
+    cursor: pointer;
+    scale: 110%;
+}
+
+#resolveButton:active
+{
+    color:skyblue;
+    background-color: white;
+}
+
+#responses
+{
+    font-size: 20px;
+    min-height: 70px;
+    max-height: max-content;
+}
+
+#responseName
+{
+    height: 30px;
+    font-size: 20px;
+    width: 350px;
+    outline-color: rgb(109, 108, 108);
+    color:rgb(58, 57, 57);
+    padding-left: 8px;
+}
+
+#responseComment
+{
+    margin-top: 20px;
+    max-width: 90%;
+    font-size:20px ;
+    outline-color: rgb(77, 75, 75);
+    padding: 8px
+}
+
+#responseSubmitButton
+{
+    padding: 5px;
+    margin-top: 8px;
+    font-size: 20px;
+    position: absolute;
+    max-width: 100%;
+    right: 7%;
+    background-color: blue;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#responseSubmitButton:hover
+{
+    scale: 110%;
+}
+
+#responseSubmitButton:active
+{
+    color:skyblue;
+    background-color: white;
+}
+
+#responseContainer
+{
+    background-color: rgb(245, 245, 245);
+    min-height: fit-content;
+    max-height: max-content;
+    width: 90%;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.responseName1
+{
+    margin: 10px 0 10px 0;
+}
+
+.responseComment1
+{
+    font-size: 17px;
+}
